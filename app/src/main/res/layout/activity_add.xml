@@ -21,12 +21,14 @@
 
     <EditText
         android:id="@+id/video_title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/video_name"
         android:inputType="text"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,12 +37,14 @@
 
     <EditText
         android:id="@+id/video_creator"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/video_creator"
         android:inputType="text"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,12 +53,14 @@
 
     <EditText
         android:id="@+id/video_url"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/video_url"
         android:inputType="text"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,11 +69,13 @@
 
     <Spinner
         android:id="@+id/video_category"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/video_categories"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
