@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">myBestYoutube</string>
+    <string name="app_name">Best Youtube</string>
     <string name="add">Ajouter</string>
+    <string name="video_name">Nom de la vidéo</string>
+    <string name="video_url">Url de la vidéo</string>
+    <string name="video_creator">Créateur de la vidéo</string>
+    <string name="cancel">ANNULER</string>
+    <string-array name="video_categories">
+        <item>Comedy</item>
+        <item>Sport</item>
+        <item>Cuisine</item>
+        <item>Music</item>
+        <item>Gaming</item>
+    </string-array>
 </resources>
