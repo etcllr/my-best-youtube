@@ -12,7 +12,7 @@ import java.util.List;
 public interface VideoDAO {
 
     @Query("SELECT * FROM video WHERE id = :id")
-    public Video find(int id);
+    public Video find(Long id);
 
     @Query("SELECT * FROM video")
     public List<Video> list();

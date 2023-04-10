@@ -17,5 +17,5 @@ public abstract class VideoDatabase extends RoomDatabase {
         return Room.databaseBuilder(context, VideoDatabase.class, DB_NAME).allowMainThreadQueries().build();
     }
 
-    public abstract VideoDAO todoDao();
+    public abstract VideoDAO videoDAO();
 }

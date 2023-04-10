@@ -8,20 +8,20 @@ import java.io.Serializable;
 @Entity
 public class Video implements Serializable {
     @PrimaryKey(autoGenerate = true)
-    private int id;
+    private long id;
     @ColumnInfo(name = "title")
-    private String title;
+    public String title;
     @ColumnInfo(name = "creator")
-    private String creator;
+    public String creator;
     @ColumnInfo(name = "url")
-    private String url;
+    public String url;
     @ColumnInfo(name = "category")
-    private String category;
+    public String category;
 
     public Video() {
     }
 
-    public Video(int id, String title, String creator, String url, String category) {
+    public Video(long id, String title, String creator, String url, String category) {
         this.id = id;
         this.title = title;
         this.creator = creator;
@@ -29,11 +29,11 @@ public class Video implements Serializable {
         this.category = category;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
